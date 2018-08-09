@@ -85,7 +85,7 @@ public class OrderCoin {
 	public static void inputData2Browser(String name, String ppNum, String tel, int wantBuyNum) {
 
 		// 设置chromedriver的环境变量路径,加载本地的Chrome浏览器的驱动文件
-		System.setProperty("webdriver.chrome.driver", "/Users/liquanliang/eclipseJeeworkspace/Selenium/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./src/chromedriver");
 
 		// 创建chromedriver对象
 		WebDriver driver = new ChromeDriver();
